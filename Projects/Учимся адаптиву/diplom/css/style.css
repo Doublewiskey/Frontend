@@ -3,4 +3,152 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+         url("../fonts/OpenSans-Bold.woff") format("woff"),
+         url("../fonts/OpenSans-Bold.ttf") format("truetype");
+}
 
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+         url("../fonts/OpenSans-Regular.woff") format("woff"),
+         url("../fonts/OpenSans-Regular.ttf") format("truetype");;
+}
+
+.header {
+    background-image: url('../images/banner-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #65665f;
+}
+
+.header::after {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+}
+
+.header-elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 60%;
+    margin-left: 77%;
+    margin-top: 8.5%;
+}
+
+.header-title {
+    padding-top: 6.2%;
+    padding-bottom: 7.8%;
+    text-align: center;
+    font-family: OpenSans-Bold;
+    font-size: 45px;
+    color: #ffffff;
+    line-height: 75px;
+    text-transform: uppercase;
+}
+
+.menu-link {
+    text-transform: uppercase;
+    font-family: OpenSans-Regular;
+    text-decoration: none;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.menu {
+    margin-right: 14%;
+    margin-top: 1.7%;
+    position: relative;
+}
+
+.menu::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 15px;
+    width: calc(100% - 30px);
+    height: 1px;
+    background-color: #ffffff;
+    transform: scaleX(0); 
+  }
+  
+
+  .menu:hover::after {
+    transform: scaleX(1); 
+  }
+
+  .title-trend {
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+    text-transform: uppercase;
+    font-family: OpenSans-Regular;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .title-trend::after {
+    content: "";
+    content: "";
+    display: block;
+    width: 3%;
+    border-bottom: 3px solid #e1d9bd;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .trend-news {
+    display: flex;
+    width: 100%;
+  }
+
+  .trend-news-1, .trend-news-2, .trend-news-3, .trend-news-4 {
+    width: 25%;
+  }
+
+  .trend-news-1 {
+    background-image: url('../images/trend1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .news-trend {
+    margin: 160px 15px 10px;
+    border: 2px solid #847447;
+  }
+
+  .trend-tags-link {
+    font-family: OpenSans-Bold;
+    font-size: 14px;
+    color: #b59f5b;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .trend-link {
+    text-transform: uppercase;
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+  }
