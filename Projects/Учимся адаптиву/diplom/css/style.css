@@ -49,9 +49,9 @@
 }
 
 .header-logo {
-  width: 60%;
-  margin-left: 77%;
-  margin-top: 8.5%;
+  width: 180px;
+  margin-left: 250px;
+  margin-top: 30px;
 }
 
 .header-title {
@@ -75,8 +75,8 @@
 }
 
 .menu {
-  margin-right: 14%;
-  margin-top: 1.7%;
+  margin-right: 245px;
+  margin-top: 45px;
   position: relative;
 }
 
@@ -109,7 +109,7 @@
   content: "";
   content: "";
   display: block;
-  width: 4%;
+  width: 65px;
   border-bottom: 3px solid #b59f5b;
   margin-top: 14px;
   margin-left: auto;
@@ -166,9 +166,9 @@ margin-right: 0;
 
 .news-trend {
   width: 100%;
-  margin: 130px 25px 10px;
+  margin: 160px 25px 20px;
   border: 3px solid #b59f5b;
-  padding: 30px;
+  padding: 40px 0px 35px 35px;
 }
 
 .trend-tags-link {
@@ -203,12 +203,11 @@ margin-right: 0;
 }
 
 .news {
-width: 35%;
 margin-top: 10%;
 }
 
 .img-news {
-max-width: 100%;
+width: 380px;
 }
 
 .description  {
@@ -280,7 +279,7 @@ font-family: OpenSans-Bold;
 .name::after {
 content: "";
 display: block;
-width: 50px;
+width: 65px;
 border-bottom: 3px solid #e1d9bd;
 margin-top: 14px;
 margin-left: auto;
@@ -294,25 +293,27 @@ width: 20%;
 
 .section-news {
   display: flex;
+  justify-content: center;
 }
 
 .news-2 {
-width: 25%;
 margin-top: 22px;
 }
 
 .img-news-2 {
-max-width: 100%;
+width: 75px;
 }
 
 .description-2 {
-width: 75%;
+width: 60%;
 margin-top: 22px;
+margin-left: 15px;
 }
 
 .title-news-short-sh {
 font-size: 14px;
 text-transform: uppercase;
+font-family: OpenSans-Bold;
 }
 
 .searsh-input {
