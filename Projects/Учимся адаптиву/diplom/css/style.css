@@ -17,4 +17,102 @@
        url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
+/*Медиа-запросы*/
+/*Медиа-баннер*/
 
+@media screen and (min-width: 1201px) {
+  .header {
+    background-image: url(../images/banner-bg.jpg);
+  }
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+  .header {
+    background-image: url(../images/banner-bg-tablet.jpg);
+  }
+  .menu-link {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header {
+    background-image: url(../images/banner-mobile.jpg);
+  }
+  .header-title-desc {
+    font-size: 26px !important;
+  }
+}
+
+/*Styles for header*/
+
+.header {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #65665f;
+}
+
+.header-container::after {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+
+.header-element {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.header-logo, .menu {
+  margin-top: 20px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.menu-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: OpenSans-Regular;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.menu-link:not(:last-of-type) {
+  padding-right: 15px;
+}
+
+.hamburger-menu {
+  width: 30px;
+  height: 30px;
+}
+
+.header-title {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 150px;
+}
+
+.header-title-desc {
+  text-transform: uppercase;
+  font-family: OpenSans-Bold;
+  font-size: 45px;
+  color: #ffffff;
+  text-align: center;
+}
