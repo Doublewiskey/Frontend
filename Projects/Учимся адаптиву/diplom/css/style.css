@@ -204,16 +204,30 @@
 
 .element {
   width: calc(25% - 3px);
-  background-image: url('https://github.com/Doublewiskey/Frontend/blob/main/Projects/%D0%A3%D1%87%D0%B8%D0%BC%D1%81%D1%8F%20%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2%D1%83/diplom/images/trend1.jpg?raw=true');
   box-sizing: border-box;
   background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-  border: 1px solid #000;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 140px 35px 35px 35px;
   position: relative;
   color: white;
   background-color: #fff;
+}
+
+.fonimg-trend-1 {
+  background-image: url('https://github.com/Doublewiskey/Frontend/blob/main/Projects/%D0%A3%D1%87%D0%B8%D0%BC%D1%81%D1%8F%20%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2%D1%83/diplom/images/trend1.jpg?raw=true');
+}
+
+.fonimg-trend-2 {
+  background-image: url(https://github.com/Doublewiskey/Frontend/blob/main/Projects/%D0%A3%D1%87%D0%B8%D0%BC%D1%81%D1%8F%20%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2%D1%83/diplom/images/trend2.jpg?raw=true);
+}
+
+.fonimg-trend-3 {
+  background-image: url(https://github.com/Doublewiskey/Frontend/blob/main/Projects/%D0%A3%D1%87%D0%B8%D0%BC%D1%81%D1%8F%20%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2%D1%83/diplom/images/trend3.jpg?raw=true);
+}
+
+.fonimg-trend-4 {
+  background-image: url(https://github.com/Doublewiskey/Frontend/blob/main/Projects/%D0%A3%D1%87%D0%B8%D0%BC%D1%81%D1%8F%20%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2%D1%83/diplom/images/trend4.jpg?raw=true);
 }
 
 .mask {
@@ -233,7 +247,7 @@ opacity: 0.6;
 }
 
 .info {
-  border: 1px solid #000;
+  border: 3px solid #b59f5b;
   padding: 10px;
 }
 
