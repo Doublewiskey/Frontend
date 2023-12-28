@@ -499,3 +499,218 @@ opacity: 0.6;
   color: #ffffff;
   cursor: pointer;
 }
+
+/*Styles for Tags(Aside)*/
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.links-tags {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: OpenSans-Bold;
+  font-size: 12px;
+  border: 3px solid #f4f7f6;
+  color: #000000;
+  padding: 5px 15px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+/*Styles for Themes(Aside)*/
+
+.themes {
+  display: flex;
+  flex-direction: column;
+}
+
+.links-themes {
+  text-decoration: none;
+  color: #000000;
+  border-bottom: 2px solid #f4f7f6;
+  font-family: OpenSans-Bold;
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/*Media for Shop*/
+
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+  .shops .shop {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .shop .shop-container {
+    width: calc(50% - 5px);
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .shops .shop {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  .shop .shop-container {
+    width: 100%;
+  }
+}
+
+/*Styles for Shop*/
+
+.shop {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 65px;
+}
+
+.shop-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.description-shop {
+  border: 3px solid #b59f5b;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 15px 10px;
+}
+
+.container-images {
+  width: 90%;
+  transform: translate(5%, 10%);
+}
+
+.shop-item-img {
+  width: 100%;
+}
+
+.general-styles-title {
+  text-transform: uppercase;
+  font-family: OpenSans-Bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.general-styles-descshop {
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+.links-shop {
+  text-decoration: none;
+  color: #b59f5b;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.general-styles-numeric {
+  text-transform: uppercase;
+  font-family: OpenSans-Bold;
+  font-size: 20px;
+}
+
+.btn-shop {
+  width: 140px;
+  height: 50px;
+  text-transform: uppercase;
+  background-color: #b59f5b;
+  color: #fff;
+  border: none;
+  font-family: OpenSans-Bold;
+  font-size: 14px;
+}
+
+/*Media for Footer*/
+
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+  .footers .footer {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footers .footer {
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+}
+
+/*Styles for Footer*/
+
+.footer {
+  margin-right: 15%;
+  margin-left: 15%;
+}
+  
+.social-link {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  padding: 15px;
+}
+  
+.twitter {
+  background-image: url('https://raw.githubusercontent.com/Doublewiskey/Frontend/c9045a4b9eb3a184ca61970f99636c422a1cbb6e/Projects/%D0%A3%D1%87%D0%B8%D0%BC%D1%81%D1%8F%20%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2%D1%83/diplom/svg/004-twitter.svg');
+}
+  
+.drible {
+  background-image: url('https://raw.githubusercontent.com/Doublewiskey/Frontend/c9045a4b9eb3a184ca61970f99636c422a1cbb6e/Projects/%D0%A3%D1%87%D0%B8%D0%BC%D1%81%D1%8F%20%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2%D1%83/diplom/svg/001-dribbble.svg');
+}
+  
+.pinter {
+  background-image: url('https://raw.githubusercontent.com/Doublewiskey/Frontend/c9045a4b9eb3a184ca61970f99636c422a1cbb6e/Projects/%D0%A3%D1%87%D0%B8%D0%BC%D1%81%D1%8F%20%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2%D1%83/diplom/svg/001-pinterest.svg');
+}
+  
+.tumbl {
+  background-image: url('https://raw.githubusercontent.com/Doublewiskey/Frontend/c9045a4b9eb3a184ca61970f99636c422a1cbb6e/Projects/%D0%A3%D1%87%D0%B8%D0%BC%D1%81%D1%8F%20%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2%D1%83/diplom/svg/003-tumblr.svg');
+}
+  
+.social-link-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+  
+.social-link-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  margin-bottom: 50px;
+  background-color: #f6f8fa;
+}
+  
+.copyright-link {
+  text-decoration: none;
+  font-family: OpenSans-Bold;
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  color: #999999;
+}
