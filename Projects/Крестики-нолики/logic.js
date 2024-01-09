@@ -39,8 +39,6 @@ function swapPlayer() {
   currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
 }
 
-// ... (ваш текущий код)
-
 const restartButton = document.getElementById('restartBtn');
 restartButton.addEventListener('click', restartGame);
 
